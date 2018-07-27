@@ -20,7 +20,7 @@ Full credit to [colinstein](https://gist.github.com/colinstein) as this is nothi
 
 ## Install
 ```
-wget https://github.com/john-sandall/onetimepadlock/raw/branch/master/secure.py
+wget https://raw.githubusercontent.com/john-sandall/onetimepadlock/master/secure.py
 chmod +x secure.py
 ```
 
