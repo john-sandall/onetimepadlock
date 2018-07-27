@@ -21,7 +21,6 @@ Full credit to [colinstein](https://gist.github.com/colinstein) as this is nothi
 ## Install
 ```
 wget https://raw.githubusercontent.com/john-sandall/onetimepadlock/master/secure.py
-chmod +x secure.py
 ```
 
 ## Usage
