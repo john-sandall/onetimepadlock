@@ -19,13 +19,16 @@ Full credit to [colinstein](https://gist.github.com/colinstein) as this is nothi
 
 
 ## Install
-```
+
+```sh
 wget https://raw.githubusercontent.com/john-sandall/onetimepadlock/master/secure.py
 ```
 
 ## Usage
-From the command-line:
-```
+
+From the commandline:
+
+```sh
 # Encrypt
 python secure.py --encrypt -f secret.txt -k /path/to/public/key.pub.pkcs8
 
@@ -40,7 +43,8 @@ python secure.py --decrypt -f secret.tgz -k /path/to/private/key
 ```
 
 ## Manual steps (including generation of .pkcs8 key)
-```
+
+```sh
 # Generate a PKCS8 version of your public key (e.g. id_rsa.pub -> id_rsa.pub.pkcs8)
 ssh-keygen -e -f ~/.ssh/id_rsa.pub -m PKCS8 > ~/.ssh/id_rsa.pub.pkcs8
 
